@@ -46,9 +46,10 @@ az>> group create --location uaenorth --name Static_WebCLI
 --location(Required Field):This is used to specify the location where the resource group should be deployed 
 --name(Required Field):Name of the Resource Group
 
-### Screenshot
+<img width="1106" height="303" alt="Screenshot 2026-02-03 154246" src="https://github.com/user-attachments/assets/9a5896fc-e9c5-40d6-b00d-6d17998ed842" />
 
-![[Screenshot 2026-02-03 154246.png]]
+
+
 
 --- 
 ## Step 2: Create Azure Static Web App
@@ -70,7 +71,8 @@ create: This command used to create staticwebapp.
 
 ### Screenshot
 
-![[Screenshot 2026-02-05 182531.png]]
+<img width="1733" height="972" alt="Screenshot 2026-02-05 182531" src="https://github.com/user-attachments/assets/9fb1352a-6fc5-4de5-b458-20dc1b9c7d0c" />
+
 
 
 
@@ -81,7 +83,8 @@ create: This command used to create staticwebapp.
 CLI provides options such as `--query` which allows to filter the output.
 ### Command Used
 az>> staticwebapp show --name SimpleWeb --query defaultHostname
- ![[Screenshot 2026-02-05 184610.png]]
+ <img width="785" height="49" alt="Screenshot 2026-02-05 184610" src="https://github.com/user-attachments/assets/f021c88c-3f80-4146-b1bf-47c886c436c1" />
+
 
 ## Step 4: Access the Live Website
 
@@ -91,7 +94,8 @@ Once deployment completes, retrieve the website URL.
 
 ### Screenshot
 
-![[Pasted image 20260205185001.png]]
+<img width="1912" height="990" alt="Screenshot 2026-02-05 184957" src="https://github.com/user-attachments/assets/069f9fc1-b954-4b65-ac30-95f059159249" />
+
 
 ---
 ## Key Learnings
